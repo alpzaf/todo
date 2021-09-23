@@ -7,3 +7,10 @@
         @apply text-red-500
     }
 }
+@layer utilities {
+  @variants responsive {
+    .ml-auto {
+      margin-left: auto;
+    }
+  }
+}
