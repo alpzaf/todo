@@ -1,7 +1,13 @@
 <template>
-  <HelloWorld/>
+  <Container/>
 </template>
 
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import Container from './components/Container.vue'
+
+export default {
+  components : {
+    Container
+  }
+}
 </script>
