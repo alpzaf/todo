@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --mode development",
     "serve": "vite preview"
   },
   "dependencies": {
+    "@heroicons/vue": "^1.0.4",
     "vue": "^3.2.6"
   },
   "devDependencies": {
