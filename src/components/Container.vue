@@ -1,6 +1,4 @@
-<script setup>
 
-</script>
 
 <template>
   <div class="sm:container mx-auto mt-10">
@@ -8,3 +6,8 @@
   </div>
 </template>
 
+<script>
+  export default {
+    
+  }
+</script>
